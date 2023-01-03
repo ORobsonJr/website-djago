@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    top: 20;
+    font-size: 30px;
+    
+}
+
+
+.youtube-video {
+    border-color: greenyellow;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-background::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 130%;
+    opacity: 0.25;
+    background-image: url('../img/weight-loss.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    z-index: -1;
+}
+
+.button-external-link {
+    background-color: rgb(127, 255, 0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    font-size: larger;
+    border: 20px;
+    height: 70px;
+    width:  50%;
+    
+}
